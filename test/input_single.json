@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    null,
+    {
+      "topic": "tote-win-bets",
+      "key": null,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0,
+        "amount": 25
+      }
+    }
+  ]
+}

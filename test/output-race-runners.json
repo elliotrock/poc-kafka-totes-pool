@@ -1,0 +1,22 @@
+{
+  "outputs": [
+    {
+      "topic": "TOTE_RACE_RUNNERS_ENRICHED",
+      "key": 0,
+      "value": {
+        "ID": 1,
+        "RUNNER_UID": 1,
+        "RACE_UID": 0
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ENRICHED",
+      "key": 1,
+      "value": {
+        "ID": 2,
+        "RUNNER_UID": 2,
+        "RACE_UID": 0
+      }
+    }
+  ]
+}

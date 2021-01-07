@@ -1,0 +1,67 @@
+{
+  "outputs": [
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 25
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,    
+        "RUNNER_POOL_AMOUNT" : 75
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 125
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 5
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 15
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 35
+      }
+    },
+    {
+      "topic": "TOTE_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RUNNER_POOL_AMOUNT" : 15
+      }
+    }
+  ]
+}

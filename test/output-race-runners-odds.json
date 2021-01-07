@@ -1,0 +1,81 @@
+{
+  "outputs": [
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 25,
+        "RUNNER_POOL_AMOUNT" : 25,
+        "ODDS": 1
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 75,
+        "RUNNER_POOL_AMOUNT" : 75,
+        "ODDS": 1
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 125,
+        "RUNNER_POOL_AMOUNT" : 125,
+        "ODDS": 1
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 130,
+        "RUNNER_POOL_AMOUNT" : 5,
+        "ODDS": 26
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 140,
+        "RUNNER_POOL_AMOUNT" : 15,
+        "ODDS": 9.33
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 160,
+        "RUNNER_POOL_AMOUNT" : 35,
+        "ODDS": 4.57
+      }
+    },
+    {
+      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 140,
+        "RUNNER_POOL_AMOUNT" : 15,
+        "ODDS": 9.33
+      }
+    }
+  ]
+}

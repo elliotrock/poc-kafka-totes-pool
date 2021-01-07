@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "topic": "tote-race-runners",
+      "key": 0,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0
+      }
+    },
+    {
+      "topic": "tote-race-runners",
+      "key": 1,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0
+      }
+    }
+  ]
+}

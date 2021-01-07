@@ -1,0 +1,74 @@
+{
+  "outputs": [
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "AMOUNT": 25,
+        "RUNNER_POOL_AMOUNT" : 25
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "AMOUNT": 50,
+        "RUNNER_POOL_AMOUNT" : 75
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 1,
+      "value": {
+        "RUNNER_UID": 1,
+        "RACE_UID": 0,
+        "AMOUNT": 50,
+        "RUNNER_POOL_AMOUNT" : 125
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "AMOUNT": 0,
+        "RUNNER_POOL_AMOUNT" : 5
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "AMOUNT": 10,
+        "RUNNER_POOL_AMOUNT" : 15
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "AMOUNT": 20,
+        "RUNNER_POOL_AMOUNT" : 35
+      }
+    },
+    {
+      "topic": "TOTE_WIN_BET_RUNNERS_POOL",
+      "key": 2,
+      "value": {
+        "RUNNER_UID": 2,
+        "RACE_UID": 0,
+        "AMOUNT": -20,
+        "RUNNER_POOL_AMOUNT" : 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "inputs": [
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0,
+        "amount": 25
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0,
+        "amount": 50
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0,
+        "amount": 50
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0,
+        "amount": 5
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0,
+        "amount": 10
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0,
+        "amount": 20
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0,
+        "amount": -20
+      }
+    }
+  ]
+}

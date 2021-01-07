@@ -1,0 +1,60 @@
+{
+  "outputs": [
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 25
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 75
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 125
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 130
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 140
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 160
+      }
+    },
+    {
+      "topic": "TOTE_RACE_POOL",
+      "key": 0,
+      "value": {
+        "RACE_UID": 0,
+        "RACE_POOL_AMOUNT" : 140
+      }
+    }
+  ]
+}
