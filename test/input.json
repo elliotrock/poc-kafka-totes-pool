@@ -62,6 +62,24 @@
         "race_uid": 0,
         "amount": -20
       }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 2,
+        "race_uid": 0,
+        "amount": 0
+      }
+    },
+    {
+      "topic": "tote_win_bets",
+      "key": null,
+      "value": {
+        "runner_uid": 1,
+        "race_uid": 0,
+        "amount": 0
+      }
     }
   ]
 }

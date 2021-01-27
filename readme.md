@@ -48,7 +48,10 @@ To kill the running docker
 `make prune`
 To remove any instances and volumes, good for clearing streams or if you have made structural changes during development.
 
-** Useful queries
+`make test`
+tbc
+
+### Useful queries
 
 `SHOW STREAMS;`
 `SHOW TABLES;` | `LIST TABLE;`

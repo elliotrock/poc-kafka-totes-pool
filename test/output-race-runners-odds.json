@@ -1,18 +1,18 @@
 {
   "outputs": [
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 1,
       "value": {
         "RUNNER_UID": 1,
         "RACE_UID": 0,
-        "RACE_POOL_AMOUNT" : 25,
+        "RACE_POOL_AMOUNT" : 75,
         "RUNNER_POOL_AMOUNT" : 25,
-        "ODDS": 1
+        "ODDS": 3.0
       }
     },
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 1,
       "value": {
         "RUNNER_UID": 1,
@@ -23,29 +23,18 @@
       }
     },
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
-      "key": 1,
-      "value": {
-        "RUNNER_UID": 1,
-        "RACE_UID": 0,
-        "RACE_POOL_AMOUNT" : 125,
-        "RUNNER_POOL_AMOUNT" : 125,
-        "ODDS": 1
-      }
-    },
-    {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 2,
       "value": {
         "RUNNER_UID": 2,
         "RACE_UID": 0,
         "RACE_POOL_AMOUNT" : 130,
         "RUNNER_POOL_AMOUNT" : 5,
-        "ODDS": 26
+        "ODDS": 26.0
       }
     },
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 2,
       "value": {
         "RUNNER_UID": 2,
@@ -56,7 +45,7 @@
       }
     },
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 2,
       "value": {
         "RUNNER_UID": 2,
@@ -67,7 +56,7 @@
       }
     },
     {
-      "topic": "TOTE_RACE_RUNNERS_ODD",
+      "topic": "TOTE_WIN_BET_RACE_RUNNERS_ODDS",
       "key": 2,
       "value": {
         "RUNNER_UID": 2,
