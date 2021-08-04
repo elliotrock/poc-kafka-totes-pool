@@ -1,0 +1,9 @@
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (1, 0, 25);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (1, 0, 50);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (1, 0, 50);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (2, 0, 5);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (2, 0, 10);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (2, 0, 20); 
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (2, 0, -20);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (2, 0, 0);
+INSERT INTO tote_win_bets (runner_id, race_id, amount) VALUES (1, 0, 0);  

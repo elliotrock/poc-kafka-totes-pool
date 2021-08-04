@@ -10,7 +10,8 @@ cli:
 
 .PHONY: play
 play:
-	echo '{ksql:$$stmt, streamsProperties: {}}'
+	chmod u+x play.sh
+	bash play.sh
 
 .PHONY: build
 build:
