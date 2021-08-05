@@ -29,7 +29,7 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
       "value": {
         "runner_uid": 1,
         "race_uid": 0,
-        "amount": 25
+        "amount": 0
       }
     }
  ```   
@@ -42,10 +42,21 @@ To install any missing dependencies.
 To run the docker containers.
 
 `make build` | `bash build.sh`
-To build, the makefile has the permissions added.
+To build the streams and tables, the makefile has the permissions added.
 
 `make cli`
 To start the ksqlDB CLI. Open a new terminal window for this. 
+
+Once you have build the streams and tables a nice way of running a demo is to run a pull query in `ksqldb-cli` on the final stream `tote_win_bet_race_runners_odds` like;
+
+`SELECT * FROM tote_win_bet_race_runners_odds WHERE race_id = 0 EMIT CHANGES;` 
+
+This will continously print to console changes to that stream.
+
+`make play` | `bash play.sh`
+To insert the queries, for demo purpose, the makefile has the permissions added. If you 
+
+
 
 `make kill`
 To kill the running docker
@@ -64,7 +75,8 @@ tbc
 `DESCRIBE table | stream;`
 Details of that steam or table, including type of data.
 
-`PRINT 'topic' FROM BEGINNING;`
+`PRINT 'topic' FROM BEGINNING INTERVAL 1;`
+A way of seeing the output.
 
 `DROP TABLE table_name;` 
 `DROP STREAM table_name;` 
