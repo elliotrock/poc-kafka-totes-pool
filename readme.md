@@ -83,3 +83,7 @@ A way of seeing the output.
 You will need to terminate any querys creating the table first;
 
 `TERMINATE query_id;` 
+
+
+### Todo:
+- update kafka version
