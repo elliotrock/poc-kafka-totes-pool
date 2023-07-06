@@ -1,9 +1,3 @@
-# missing dependencies
-
-.PHONY: install
-install: 
-	brew install jq
-
 .PHONY: cli 
 cli:
 	docker exec -it ksqldb-cli ksql http://ksqldb-server:8088	

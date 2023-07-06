@@ -1,1 +1,1 @@
-{"buildTargets":["build","cli","install","kill","play","prune","start","stop","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["build","cli","kill","play","prune","start","stop","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

@@ -2,7 +2,11 @@
 version: '2'
 services:
   zookeeper:
+<<<<<<< HEAD
     image: confluentinc/cp-zookeeper:7.2.2
+=======
+    image: confluentinc/cp-zookeeper:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: zookeeper
     container_name: zookeeper
     ports:
@@ -12,12 +16,20 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
 
   broker:
+<<<<<<< HEAD
     image: confluentinc/cp-server:7.2.2
+=======
+    image: confluentinc/cp-kafka:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: broker
     container_name: broker
     depends_on:
       - zookeeper
     ports:
+<<<<<<< HEAD
+=======
+      - "29092:29092"
+>>>>>>> docker-kafka-7-4-0-update
       - "9092:9092"
       - "9101:9101"
     environment:
@@ -25,6 +37,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092
+<<<<<<< HEAD
       KAFKA_METRIC_REPORTERS: io.confluent.metrics.reporter.ConfluentMetricsReporter
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
@@ -42,6 +55,17 @@ services:
 
   schema-registry:
     image: confluentinc/cp-schema-registry:7.2.2
+=======
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_JMX_PORT: 9101
+      KAFKA_JMX_HOSTNAME: localhost
+
+  schema-registry:
+    image: confluentinc/cp-schema-registry:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: schema-registry
     container_name: schema-registry
     depends_on:
@@ -54,7 +78,11 @@ services:
       SCHEMA_REGISTRY_LISTENERS: http://0.0.0.0:8081
 
   connect:
+<<<<<<< HEAD
     image: cnfldemos/cp-server-connect-datagen:0.5.3-7.1.0
+=======
+    image: cnfldemos/kafka-connect-datagen:0.5.3-7.1.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: connect
     container_name: connect
     depends_on:
@@ -76,6 +104,7 @@ services:
       CONNECT_KEY_CONVERTER: org.apache.kafka.connect.storage.StringConverter
       CONNECT_VALUE_CONVERTER: io.confluent.connect.avro.AvroConverter
       CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL: http://schema-registry:8081
+<<<<<<< HEAD
       # CLASSPATH required due to CC-2422
       CLASSPATH: /usr/share/java/monitoring-interceptors/monitoring-interceptors-7.2.2.jar
       CONNECT_PRODUCER_INTERCEPTOR_CLASSES: "io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor"
@@ -108,6 +137,13 @@ services:
 
   ksqldb-server:
     image: confluentinc/cp-ksqldb-server:7.2.2
+=======
+      CONNECT_PLUGIN_PATH: "/usr/share/java,/usr/share/confluent-hub-components"
+      CONNECT_LOG4J_LOGGERS: org.apache.zookeeper=ERROR,org.I0Itec.zkclient=ERROR,org.reflections=ERROR
+
+  ksqldb-server:
+    image: confluentinc/cp-ksqldb-server:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: ksqldb-server
     container_name: ksqldb-server
     depends_on:
@@ -122,15 +158,22 @@ services:
       KSQL_LISTENERS: "http://0.0.0.0:8088"
       KSQL_CACHE_MAX_BYTES_BUFFERING: 0
       KSQL_KSQL_SCHEMA_REGISTRY_URL: "http://schema-registry:8081"
+<<<<<<< HEAD
       KSQL_PRODUCER_INTERCEPTOR_CLASSES: "io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor"
       KSQL_CONSUMER_INTERCEPTOR_CLASSES: "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor"
+=======
+>>>>>>> docker-kafka-7-4-0-update
       KSQL_KSQL_CONNECT_URL: "http://connect:8083"
       KSQL_KSQL_LOGGING_PROCESSING_TOPIC_REPLICATION_FACTOR: 1
       KSQL_KSQL_LOGGING_PROCESSING_TOPIC_AUTO_CREATE: 'true'
       KSQL_KSQL_LOGGING_PROCESSING_STREAM_AUTO_CREATE: 'true'
 
   ksqldb-cli:
+<<<<<<< HEAD
     image: confluentinc/cp-ksqldb-cli:7.2.2
+=======
+    image: confluentinc/cp-ksqldb-cli:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     container_name: ksqldb-cli
     depends_on:
       - broker
@@ -140,7 +183,11 @@ services:
     tty: true
 
   ksql-datagen:
+<<<<<<< HEAD
     image: confluentinc/ksqldb-examples:7.2.2
+=======
+    image: confluentinc/ksqldb-examples:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     hostname: ksql-datagen
     container_name: ksql-datagen
     depends_on:
@@ -162,7 +209,11 @@ services:
       STREAMS_SCHEMA_REGISTRY_PORT: 8081
 
   rest-proxy:
+<<<<<<< HEAD
     image: confluentinc/cp-kafka-rest:7.2.2
+=======
+    image: confluentinc/cp-kafka-rest:7.4.0
+>>>>>>> docker-kafka-7-4-0-update
     depends_on:
       - broker
       - schema-registry
