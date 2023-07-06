@@ -35,8 +35,8 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
  ```   
 
 ### Install and run
-`make install`
-To install any missing dependencies.
+`bash install.sh`
+To install any missing dependencies. Including makefile.
 
 `make start`
 To run the docker containers.
