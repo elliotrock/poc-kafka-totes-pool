@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue Jul  4 14:58:48 2023
+# Make data base, printed on Wed Jul 12 08:34:14 2023
 
 # Variables
 
@@ -29,6 +29,7 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # makefile
 CURDIR := /Users/elliot.rock/Development/poc-kafka-totes-pool
 # makefile
+ 
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","osLocale":"en-au","availableLanguages":{},"_languagePackSupport":true}
@@ -43,13 +44,13 @@ VSCODE_CWD = /
 # environment
 PATH = /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
 # environment
-LaunchInstanceID = AD18684D-50C5-4C4C-A0D7-25FE3D4D66AE
+LaunchInstanceID = 85C3E37E-0484-4A98-8C97-858376B676EE
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.EyYzSWNK2i/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.t76Fgf4zkM/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -65,7 +66,7 @@ HOME = /Users/elliot.rock
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/elliot.rock/Library/Application Support/Code/CachedData/b3e4e68a0bc097f0ae7907b217c1119af9e03435
+VSCODE_CODE_CACHE_PATH = /Users/elliot.rock/Library/Application Support/Code/CachedData/660393deaaa6d1996740ff4880f1bad43768c814
 # environment
 LOGNAME = elliot.rock
 # environment
@@ -82,8 +83,6 @@ MAKE = $(MAKE_COMMAND)
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
-# environment
-VSCODE_CRASH_REPORTER_SANDBOXED_HINT = 1
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -101,7 +100,7 @@ TMPDIR = /var/folders/qy/rhn0pwws5mlbbh8gnk1p6swm0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/elliot.rock/Library/Application Support/Code/1.78-main.sock
+VSCODE_IPC_HOOK = /Users/elliot.rock/Library/Application Support/Code/1.80-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -111,7 +110,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.30403371.30403382
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.33518446.33518452
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -139,9 +138,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 999
+VSCODE_PID = 706
 # variable set hash-table stats:
-# Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
+# Load=62/1024=6%, Rehash=0, Collisions=1/86=1%
 
 # Pattern-specific Variable Values
 
@@ -149,9 +148,9 @@ VSCODE_PID = 999
 
 # Directories
 
-# . (device 16777221, inode 10743275): 13 files, no impossibilities.
+# . (device 16777220, inode 10743275): 17 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -203,7 +202,7 @@ start:
 #  File does not exist.
 #  File has not been updated.
 #  commands to execute (from `makefile', line 26):
-	docker-compose up -d
+	docker-compose up
 	
 
 test:
@@ -222,7 +221,7 @@ test:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-02 16:29:32
+#  Last modified 2023-07-07 11:20:17
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -285,6 +284,6 @@ play:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Jul  4 14:58:48 2023
+# Finished Make data base on Wed Jul 12 08:34:14 2023
 
  

@@ -18,7 +18,7 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
 
 
 ### Considerations;
-* The two pool tables don't broadcast changes down stream, there is a eventual consistence concept at play. 
+* The two pool tables don't broadcast changes down stream, there is a eventual consistence concept at play.  
 * The updates to the `tote_win_bets` seem to be behind one step, this doesn't effect the results, it is mearly how table and stream joins work - so the order of events will resolve. 
 * Close off each race and runner zero amount bet to step the final stream foward and make it complete. As show below or via kssqldb cli;
 
@@ -27,8 +27,8 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
       "topic": "tote_win_bets",
       "key": null,
       "value": {
-        "runner_uid": 1,
-        "race_uid": 0,
+        "runner_id": 1,
+        "race_id": 0,
         "amount": 0
       }
     }
@@ -53,10 +53,11 @@ Once you have build the streams and tables a nice way of running a demo is to ru
 
 This will continously print to console changes to that stream.
 
-`make play` | `bash play.sh`
-To insert the queries, for demo purpose, the makefile has the permissions added. If you 
+`bash post_bets.sh`
+Use this to insert a couple of bets into `tote_win_bets`.
 
-
+`bash post_bets_large.sh`
+Use this to insert an array of bets into `tote_win_bets`.
 
 `make kill`
 To kill the running docker
@@ -64,8 +65,6 @@ To kill the running docker
 `make prune`
 To remove any instances and volumes, good for clearing streams or if you have made structural changes during development.
 
-`make test`
-tbc
 
 ### Useful queries
 
@@ -84,6 +83,3 @@ You will need to terminate any querys creating the table first;
 
 `TERMINATE query_id;` 
 
-
-### Todo:
-- update kafka version
