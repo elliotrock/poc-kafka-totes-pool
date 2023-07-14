@@ -14,7 +14,7 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
 
 
 ### Diagram
-![alt ksqldb flow](totes_ksqldb_poc.png)
+![alt ksqldb flow](Kafka totes bet poc.png)
 
 
 ### Considerations;

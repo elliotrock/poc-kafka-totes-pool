@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Jul 12 08:34:14 2023
+# Make data base, printed on Fri Jul 14 08:58:43 2023
 
 # Variables
 
@@ -27,9 +27,9 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 @F = $(notdir $@)
 # makefile
+ 
 CURDIR := /Users/elliot.rock/Development/poc-kafka-totes-pool
 # makefile
- 
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","osLocale":"en-au","availableLanguages":{},"_languagePackSupport":true}
@@ -44,13 +44,13 @@ VSCODE_CWD = /
 # environment
 PATH = /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
 # environment
-LaunchInstanceID = 85C3E37E-0484-4A98-8C97-858376B676EE
+LaunchInstanceID = 2E0B9B63-83D7-49BD-BA04-0DEF5B6947CB
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.t76Fgf4zkM/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Exb2eOg5uu/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,6 +113,8 @@ MFLAGS = -Rrqp
 XPC_SERVICE_NAME = application.com.microsoft.VSCode.33518446.33518452
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -138,9 +140,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 706
+VSCODE_PID = 828
 # variable set hash-table stats:
-# Load=62/1024=6%, Rehash=0, Collisions=1/86=1%
+# Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
 
 # Pattern-specific Variable Values
 
@@ -148,9 +150,9 @@ VSCODE_PID = 706
 
 # Directories
 
-# . (device 16777220, inode 10743275): 17 files, no impossibilities.
+# . (device 16777224, inode 10743275): 19 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -163,7 +165,7 @@ stop:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 30):
+#  commands to execute (from `makefile', line 31):
 	docker-compose stop
 	
 
@@ -201,7 +203,7 @@ start:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 26):
+#  commands to execute (from `makefile', line 27):
 	docker-compose up
 	
 
@@ -210,18 +212,18 @@ test:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 17):
+#  commands to execute (from `makefile', line 18):
 	# docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s opt/app/src/statements.sql -o /opt/app/test/output-runners-pool.json
 	# docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s opt/app/src/statements.sql -o /opt/app/test/output-race-pool.json
 	# docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s opt/app/src/statements.sql -o /opt/app/test/output-bets-runners-pool.json	
 	# docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input-runners.json -s opt/app/src/statements-race-runners.sql -o /opt/app/test/output-race-runners.json
-	docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s opt/app/src/statements.sql -o /opt/app/test/output-race-runners-odds.json
+	# docker exec ksqldb-cli ksql-test-runner -i /opt/app/test/input.json -s opt/app/src/statements.sql -o /opt/app/test/output-race-runners-odds.json
 	
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2023-07-07 11:20:17
+#  Last modified 2023-07-13 15:07:38
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -242,7 +244,7 @@ prune:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 38):
+#  commands to execute (from `makefile', line 39):
 	docker container prune
 	
 
@@ -257,7 +259,7 @@ kill:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 34):
+#  commands to execute (from `makefile', line 35):
 	docker-compose kill
 	
 
@@ -284,6 +286,6 @@ play:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Jul 12 08:34:14 2023
+# Finished Make data base on Fri Jul 14 08:58:43 2023
 
  
