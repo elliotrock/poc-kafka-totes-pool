@@ -2,7 +2,7 @@ curl -X POST \
   -H "Content-Type: application/vnd.kafka.avro.v2+json" \
   -H "Accept: application/vnd.kafka.v2+json" \
   -g --data '{
-    "value_schema_id": 7,
+    "value_schema_id": 1,
     "records": [
       {
         "value": {

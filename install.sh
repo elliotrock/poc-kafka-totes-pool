@@ -8,6 +8,10 @@ fi
 if ! command -v makefile 
 then brew install make
 fi
+# docker cli
+if ! command -v makefile 
+then brew install docker
+fi
 
 if ! command -v jq
 then brew install jq

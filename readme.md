@@ -34,17 +34,21 @@ Then a N-way join on the intial unpartitioned streamd and the two pool tables to
     }
  ```   
 
+### Prerequisites
+* Docker desktop, best way to run Docker locally. The install bash has a brew for docker but you will still need the Docker for Desktop for the engine: https://www.docker.com/products/docker-desktop/
+
+
 ### Install and run
-`bash install.sh`
+1. `bash install.sh`
 To install any missing dependencies. Including makefile.
 
-`make start`
+2. `make start`
 To run the docker containers.
 
-`make build` | `bash build.sh`
+3. `make build` | `bash build.sh`
 To build the streams and tables, the makefile has the permissions added.
 
-`make cli`
+4. `make cli`
 To start the ksqlDB CLI. Open a new terminal window for this. 
 
 Once you have build the streams and tables a nice way of running a demo is to run a pull query in `ksqldb-cli` on the final stream `tote_win_bet_race_runners_odds` like;
@@ -53,11 +57,18 @@ Once you have build the streams and tables a nice way of running a demo is to ru
 
 This will continously print to console changes to that stream.
 
+5. Sending bets using the REST Proxy. The bash script below requires the schema id. If you start from scratch it should be `1`. 
+
 `bash post_bets.sh`
 Use this to insert a couple of bets into `tote_win_bets`.
 
 `bash post_bets_large.sh`
 Use this to insert an array of bets into `tote_win_bets`.
+
+**Problem Shooting:** Run `bash utilities/schema_query.sh` to get the schema_value id and edit the above bash scripts.
+
+
+### Kill, prunbe and clear the caontainers 
 
 `make kill`
 To kill the running docker
