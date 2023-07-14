@@ -68,7 +68,7 @@ Use this to insert an array of bets into `tote_win_bets`.
 **Problem Shooting:** Run `bash utilities/schema_query.sh` to get the schema_value id and edit the above bash scripts.
 
 
-### Kill, prunbe and clear the caontainers 
+### Kill, prune and clear the caontainers 
 
 `make kill`
 To kill the running docker
