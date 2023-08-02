@@ -2,6 +2,9 @@
 
 Eventsource pattern used to form a tote pool. 
 
+![alt pool calc](pool-calc-image.png)
+
+
 The main input topic `tote_win_bets` is keyed into two new streams which are used to form pools based around that key.
 
 `tote_win_bets_runner_keyed` -> `tote_runners_pool`

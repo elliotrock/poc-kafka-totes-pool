@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri Jul 14 08:58:43 2023
+# Make data base, printed on Wed Jul 26 10:39:02 2023
 
 # Variables
 
@@ -27,7 +27,6 @@ VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 @F = $(notdir $@)
 # makefile
- 
 CURDIR := /Users/elliot.rock/Development/poc-kafka-totes-pool
 # makefile
 SHELL = /bin/sh
@@ -44,13 +43,14 @@ VSCODE_CWD = /
 # environment
 PATH = /usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
 # environment
-LaunchInstanceID = 2E0B9B63-83D7-49BD-BA04-0DEF5B6947CB
+LaunchInstanceID = 3F821F3D-715B-4A97-A3B4-449427C52170
 # environment
+ 
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Exb2eOg5uu/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Z98g6w1KZs/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -66,7 +66,7 @@ HOME = /Users/elliot.rock
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/elliot.rock/Library/Application Support/Code/CachedData/660393deaaa6d1996740ff4880f1bad43768c814
+VSCODE_CODE_CACHE_PATH = /Users/elliot.rock/Library/Application Support/Code/CachedData/74f6148eb9ea00507ec113ec51c489d6ffb4b771
 # environment
 LOGNAME = elliot.rock
 # environment
@@ -110,7 +110,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.33518446.33518452
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.34299941.34299947
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
@@ -140,7 +140,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 828
+VSCODE_PID = 822
 # variable set hash-table stats:
 # Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
 
@@ -150,7 +150,7 @@ VSCODE_PID = 828
 
 # Directories
 
-# . (device 16777224, inode 10743275): 19 files, no impossibilities.
+# . (device 16777220, inode 10743275): 19 files, no impossibilities.
 
 # 19 files, no impossibilities in 1 directories.
 
@@ -286,6 +286,6 @@ play:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Jul 14 08:58:43 2023
+# Finished Make data base on Wed Jul 26 10:39:02 2023
 
  
